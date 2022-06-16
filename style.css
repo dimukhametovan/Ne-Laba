@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --background: #FAFAFA;
+    --header: #252B42;
+    --text:#737373;
+    --quote: #FFA62B;
+    --button-border: #00A0C1;
+}
+
+*{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;       
+}
+  
+html {
+    font-family: Montserrat;
+  }
+
+header{
+    background: var(--background);
+    height: 104px;
+    display: flex;
+    align-items:center;
+    padding: 0 118px;
+}
+
+header a{
+    text-decoration: none;
+}
+
+nav{
+    height: 100%;
+    
+}
+
+nav a{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: var(--text);
+    padding: 0 10px;
+}
+
+nav ul{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.indicorp{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: var(--header);
+    margin: auto 133px auto 0;
+}
+.navbar {
+    margin: auto 0 auto 659px;
+}
+
+.section-one{
+    background: #FAFAFA;
+  padding: 67px 0 0 197px;
+}
+
+.action{
+    width: 1046px;
+    height: 338px;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 58px;
+    font-weight: bold;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: var(--header);
+    width: 510px;
+    margin: 0;
+}
+
+.action p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    width: 376px;
+    padding: 35px 0;
+    color: var(--text);
+}
+
+.quote{
+    background: var(--quote);
+    color: var(--background);
+    border-radius: 24px;
+    border: none;
+    width: fit-content;
+    padding: 10px 36px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    font-size: 14px;
+    line-height: 28px;
+    margin-right: 10px;
+}
+
+.learn{
+    background: none;
+    color: var(--button-border);
+    border: 2px solid var(--button-border);
+    border-radius: 24px;
+    width: fit-content;
+    padding: 10px 36px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.cards_container{
+    display: flex;
+}
+
+.card {
+    width: 328px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 70px 0 40px;
+}
+.card img{
+    width: 48px;
+    height: 48px;
+}
